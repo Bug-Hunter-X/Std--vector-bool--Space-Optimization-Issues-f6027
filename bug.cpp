@@ -1,0 +1,1 @@
+std::vector<bool> vec; //This can cause unexpected behavior due to space optimization. vec.push_back(true); vec.push_back(false); //The size of each element might not be 1 byte.  bool b = vec[0]; bool c = vec[1]; //Accessing elements might be slower and not as intuitive as expected.
